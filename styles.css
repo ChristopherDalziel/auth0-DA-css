@@ -1,9 +1,6 @@
 header.dashboard-header {
   background-color: #004165 !important;
 }
-/* 
-header.dashboard-header nav #header {
-} */
 
 header.dashboard-header nav .navbar-brand {
   color: transparent !important;
@@ -14,6 +11,10 @@ header.dashboard-header nav #header {
   background-image: url("https://www.anz.com/apps/settings/wcm/designs/commons/images/logo-anz.png") !important;
 }
 
-span.username-text {
+header.dashboard-header nav li .btn-dro.btn-username .username-text {
+  color: #f7f7f7 !important;
+}
+
+header.dashboard-header nav li .btn-dro i {
   color: #f7f7f7 !important;
 }
