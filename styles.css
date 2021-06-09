@@ -4,10 +4,13 @@ header.dashboard-header {
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: #000 !important;
+  color: transparent !important;
 }
 
 header.dashboard-header nav #header {
-  background-size: 50px 40px !important;
   background-image: url("https://www.anz.com/apps/settings/wcm/designs/commons/images/logo-anz.png") !important;
+}
+
+button.username-text {
+  color: #f7f7f7 !important;
 }
