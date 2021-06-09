@@ -7,7 +7,7 @@ header.dashboard-header {
   color: transparent !important;
 }
 
-.navbar-default .navbar-brand {
+header.dashboard-header nav .navbar-brand {
   color: transparent !important;
 }
 
