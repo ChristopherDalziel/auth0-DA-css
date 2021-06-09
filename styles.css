@@ -7,7 +7,12 @@ header.dashboard-header {
   color: transparent !important;
 }
 
+.navbar-default .navbar-brand {
+  color: transparent !important;
+}
+
 header.dashboard-header nav #header {
+  background-size: 50px 40px !important;
   background-image: url("https://www.anz.com/apps/settings/wcm/designs/commons/images/logo-anz.png") !important;
 }
 
