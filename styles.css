@@ -2,10 +2,10 @@ header.dashboard-header {
   background-color: #004165 !important;
 }
 
-.navbar-default .navbar-brand:focus,
+/* .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
   color: transparent !important;
-}
+} */
 
 header.dashboard-header nav .navbar-brand {
   color: transparent !important;
@@ -16,6 +16,6 @@ header.dashboard-header nav #header {
   background-image: url("https://www.anz.com/apps/settings/wcm/designs/commons/images/logo-anz.png") !important;
 }
 
-button.username-text {
+span.username-text {
   color: #f7f7f7 !important;
 }
