@@ -2,10 +2,9 @@ header.dashboard-header {
   background-color: #004165 !important;
 }
 
-/* .navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover {
-  color: transparent !important;
-} */
+header.dashboard-header nav #header {
+  background-size: auto !important;
+}
 
 header.dashboard-header nav .navbar-brand {
   color: transparent !important;
