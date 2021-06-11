@@ -20,6 +20,6 @@ header.dashboard-header nav li .btn-dro i {
 }
 
 button#create-user-button.btn.btn-success.pull-right.new {
-  display: none;
-  visibility: hidden;
+  display: none !important;
+  visibility: hidden !important;
 }
