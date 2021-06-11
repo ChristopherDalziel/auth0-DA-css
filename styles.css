@@ -18,3 +18,8 @@ header.dashboard-header nav li .btn-dro.btn-username .username-text {
 header.dashboard-header nav li .btn-dro i {
   color: #f7f7f7 !important;
 }
+
+button#create-user-button.btn.btn-success.pull-right.new {
+  display: none;
+  visibility: hidden;
+}
