@@ -1,11 +1,14 @@
+/* Header background color */
 header.dashboard-header {
   background-color: #004165 !important;
 }
 
+/* Hide header text */
 header.dashboard-header nav .navbar-brand {
   color: transparent !important;
 }
 
+/* Logo replacement */
 header.dashboard-header nav #header {
   background-size: auto !important;
   background-image: url("https://www.anz.com/apps/settings/wcm/designs/commons/images/logo-anz.png") !important;
@@ -15,15 +18,18 @@ header.dashboard-header nav li .btn-dro.btn-username .username-text {
   color: #f7f7f7 !important;
 }
 
+/* Header button (logout etc removal) */
 header.dashboard-header nav li .btn-dro i {
   color: #f7f7f7 !important;
 }
 
+/* Create button removal */
 button#create-user-button.btn.btn-success.pull-right.new {
   display: none !important;
   visibility: hidden !important;
 }
 
+/* Devices tab removal */
 li a#user-info-tabs-tab-2 {
   display: none !important;
   visibility: hidden !important;
