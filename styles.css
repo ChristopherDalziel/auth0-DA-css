@@ -23,3 +23,8 @@ button#create-user-button.btn.btn-success.pull-right.new {
   display: none !important;
   visibility: hidden !important;
 }
+
+#user-info-tabs-tab-2 {
+  display: none !important;
+  visibility: hidden !important;
+}
