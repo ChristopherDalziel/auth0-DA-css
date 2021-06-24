@@ -34,3 +34,8 @@ li a#user-info-tabs-tab-2 {
   display: none !important;
   visibility: hidden !important;
 }
+
+ul.dropdown-menu:nth-child(2) {
+  display: none !important;
+  visibility: hidden !important;
+}
