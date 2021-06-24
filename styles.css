@@ -6,6 +6,8 @@ header.dashboard-header {
 /* Hide header text */
 header.dashboard-header nav .navbar-brand {
   color: transparent !important;
+  display: none !important;
+  visibility: hidden !important;
 }
 
 /* Logo replacement */
@@ -35,6 +37,7 @@ li a#user-info-tabs-tab-2 {
   visibility: hidden !important;
 }
 
+/* Remove reset password button */
 ul.dropdown-menu li:nth-child(2) {
   display: none !important;
   visibility: hidden !important;
