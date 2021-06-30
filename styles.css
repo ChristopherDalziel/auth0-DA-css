@@ -13,7 +13,7 @@ header.dashboard-header nav .navbar-brand {
 /* Logo replacement */
 header.dashboard-header nav #header {
   background-size: auto !important;
-  background-image: url("https://www.anz.com/apps/settings/wcm/designs/commons/images/logo-anz.png") !important;
+  background-image: url("https://christopherdalziel.github.io/auth0-DA-css/logo-email.png") !important;
 }
 
 header.dashboard-header nav li .btn-dro.btn-username .username-text {
