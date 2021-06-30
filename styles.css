@@ -38,17 +38,17 @@ li a#user-info-tabs-tab-2 {
 }
 
 /* Remove reset password button */
-button #user-actions ul.dropdown-menu li:nth-child(2) {
+/* ul.dropdown-menu li:nth-child(2) {
   display: none !important;
   visibility: hidden !important;
 }
 
-button #user-actions ul.dropdown-menu li:nth-child(3) {
+ul.dropdown-menu li:nth-child(3) {
   display: none !important;
   visibility: hidden !important;
 }
 
-button #user-actions ul.dropdown-menu li:nth-child(4) {
+ul.dropdown-menu li:nth-child(4) {
   display: none !important;
   visibility: hidden !important;
-}
+} */
