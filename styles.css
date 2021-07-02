@@ -59,6 +59,6 @@ ul.dropdown-menu li:nth-child(3) {
   visibility: hidden !important;
 }
 
-ul.dropdown-menu li:nth-child(3):after {
+ul.dropdown-menu li:nth-child(3)::after {
   content: "what are we writing here";
 }
