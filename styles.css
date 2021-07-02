@@ -1,6 +1,7 @@
 /* Header background color */
 header.dashboard-header {
-  background-color: #004165 !important;
+  /* background-color: #004165 !important; */
+  background-color: yellow !important;
 }
 
 /* Hide header text */
