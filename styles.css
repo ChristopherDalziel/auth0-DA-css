@@ -1,19 +1,16 @@
 /* Header background color */
 header.dashboard-header {
-  /* background-color: #004165 !important; */
-  background-color: green !important;
+  background-color: #004165 !important;
 }
 
 /* Hide header text */
 header.dashboard-header nav .navbar-brand {
   color: transparent !important;
-  display: none !important;
-  visibility: hidden !important;
 }
 
 /* Logo replacement */
 header.dashboard-header nav #header {
-  background-size: auto !important;
+  background-size: 100px !important;
   background-image: url("https://christopherdalziel.github.io/auth0-DA-css/logo-email.png") !important;
 }
 
@@ -38,27 +35,49 @@ li a#user-info-tabs-tab-2 {
   visibility: hidden !important;
 }
 
-/* Remove reset password button */
-/* ul.dropdown-menu li:nth-child(2) {
-  display: none !important;
-  visibility: hidden !important;
+.dropdown-menu {
+  display: flex !important;
+  flex-direction: column;
 }
 
-ul.dropdown-menu li:nth-child(3) {
-  display: none !important;
-  visibility: hidden !important;
+.dropdown-menu li:nth-of-type(1) {
+  order: 1;
+  background-color: pink;
 }
 
-ul.dropdown-menu li:nth-child(4) {
-  display: none !important;
-  visibility: hidden !important;
-} */
-
-ul.dropdown-menu li:nth-child(3) {
-  display: none !important;
-  visibility: hidden !important;
+.dropdown-menu li:nth-of-type(2) {
+  /*    order: 4; */
+  background-color: aquamarine;
 }
 
-ul.dropdown-menu li:nth-child(3)::after {
-  content: "what are we writing here";
+ul.dropdown-menu li:nth-of-type(3) a[role="menuitem"] {
+  /*    order: -2; */
+  visibility: hidden;
+  position: relative;
+}
+
+ul.dropdown-menu li:nth-of-type(3) a[role="menuitem"]::after {
+  background-color: orangered;
+  padding: 2px 20px;
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Reset Counter";
+}
+
+.dropdown-menu li:nth-of-type(4) {
+  /*    order: -1; */
+  background-color: yellow;
+  display: none;
+}
+.dropdown-menu li:nth-of-type(5) {
+  /*    order: 4; */
+  background-color: lightblue;
+  display: none;
+}
+
+.dropdown-menu li:nth-of-type(6) {
+  order: -1;
+  background-color: burlywood;
 }
