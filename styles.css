@@ -52,3 +52,12 @@ ul.dropdown-menu li:nth-child(4) {
   display: none !important;
   visibility: hidden !important;
 } */
+
+ul.dropdown-menu li:nth-child(3) {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+ul.dropdown-menu li:nth-child(3)::after {
+  content: "what are we writing here";
+}
