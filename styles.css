@@ -11,7 +11,7 @@ header.dashboard-header nav .navbar-brand {
 /* Logo replacement */
 header.dashboard-header nav #header {
   background-size: 100px !important;
-  background-image: url("https://christopherdalziel.github.io/auth0-DA-css/header-logo.png") !important;
+  background-image: url("https://smart-choice-assets-dev.s3.ap-southeast-2.amazonaws.com/header-logo.png") !important;
 }
 
 header.dashboard-header nav li .btn-dro.btn-username .username-text {
